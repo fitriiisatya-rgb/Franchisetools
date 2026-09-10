@@ -9,3 +9,11 @@ data/*.db-journal
 data/*.db-wal
 data/*.db-shm
 .DS_Store
+
+# PHP app (profitability/)
+profitability/storage/data/*.sqlite
+profitability/storage/data/*.sqlite-journal
+profitability/storage/data/*.sqlite-wal
+profitability/storage/data/*.sqlite-shm
+profitability/storage/uploads/*
+!profitability/storage/uploads/.gitkeep
