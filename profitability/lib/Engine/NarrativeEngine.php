@@ -41,11 +41,33 @@ final class NarrativeEngine
         $points[] = [
             'tone' => $cmp['grossProfit']['abs'] >= 0 ? 'positive' : 'negative',
             'text' => sprintf(
-                'Gross profit %s %s, dengan gross margin %s %s pt.',
+                'Gross Profit (setelah komisi online) %s %s, dengan gross margin %s %s pt.',
                 $cmp['grossProfit']['abs'] >= 0 ? 'ikut naik' : 'ikut turun',
                 self::fmtPct($cmp['grossProfit']['pct']),
                 $cmp['grossMarginPt'] >= 0 ? 'membaik' : 'melemah',
                 number_format(abs($cmp['grossMarginPt']), 1)
+            ),
+        ];
+
+        // Surfaces the online-commission effect explicitly: the pre-online-cost
+        // margin and the source-reconciled Gross Profit margin can move in
+        // different directions (or by very different magnitudes) whenever
+        // online commission grows faster or slower than the rest of the P&L —
+        // this point makes that visible instead of letting one "Gross Profit"
+        // number hide it.
+        $cmDeltaPt = $cmp['contributionMarginBeforeOnlineCostPt'];
+        $gpDeltaPt = $cmp['grossMarginPt'];
+        $points[] = [
+            'tone' => $gpDeltaPt >= $cmDeltaPt - 0.001 ? 'neutral' : 'info',
+            'text' => sprintf(
+                'Margin sebelum komisi online (Contribution Margin) %s %s pt, namun %s komisi online (%s) %s manfaat tersebut, sehingga Gross Profit margin setelah komisi online %s %s pt.',
+                $cmDeltaPt >= 0 ? 'membaik' : 'melemah',
+                number_format(abs($cmDeltaPt), 1),
+                $cmp['onlineCost']['abs'] >= 0 ? 'kenaikan' : 'penurunan',
+                self::fmtPct($cmp['onlineCost']['pct']),
+                $cmDeltaPt > $gpDeltaPt ? 'mengurangi' : 'tidak mengurangi',
+                $gpDeltaPt >= 0 ? 'membaik' : 'menurun',
+                number_format(abs($gpDeltaPt), 1)
             ),
         ];
 
@@ -92,6 +114,6 @@ final class NarrativeEngine
             ];
         }
 
-        return array_slice($points, 0, 5);
+        return array_slice($points, 0, 6);
     }
 }

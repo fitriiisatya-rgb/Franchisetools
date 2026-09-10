@@ -259,16 +259,17 @@
       ['Omzet', cmp.previous.revenue, cmp.current.revenue, cmp.revenue.abs, cmp.revenue.pct, false],
       ['Gross Profit', cmp.previous.grossProfit, cmp.current.grossProfit, cmp.grossProfit.abs, cmp.grossProfit.pct, false],
       ['GP Margin', cmp.previous.grossMarginPct, cmp.current.grossMarginPct, cmp.grossMarginPt, null, true],
+      ['Margin Sebelum Komisi Online', cmp.previous.contributionMarginBeforeOnlineCostPct, cmp.current.contributionMarginBeforeOnlineCostPct, cmp.contributionMarginBeforeOnlineCostPt, null, true, true],
       ['Promo', cmp.previous.promo, cmp.current.promo, cmp.promo.abs, cmp.promo.pct, false],
       ['Online Cost', cmp.previous.onlineCost, cmp.current.onlineCost, cmp.onlineCost.abs, cmp.onlineCost.pct, false],
       ['OPEX', cmp.previous.opex, cmp.current.opex, cmp.opex.abs, cmp.opex.pct, false],
       ['Operating Profit', cmp.previous.operatingProfit, cmp.current.operatingProfit, cmp.operatingProfit.abs, cmp.operatingProfit.pct, false],
       ['Profit Margin', cmp.previous.operatingMarginPct, cmp.current.operatingMarginPct, cmp.operatingMarginPt, null, true],
     ];
-    const body = rows.map(([label, prev, cur, changeAbs, changePct, isPct]) => {
+    const body = rows.map(([label, prev, cur, changeAbs, changePct, isPct, secondary]) => {
       const positive = changeAbs >= 0;
       return `<tr>
-        <td>${escapeHtml(label)}</td>
+        <td${secondary ? ' class="secondary-label"' : ''}>${escapeHtml(label)}</td>
         <td class="text-right tabular">${isPct ? prev.toFixed(1) + '%' : formatRupiahFull(prev)}</td>
         <td class="text-right tabular" style="font-weight:500;">${isPct ? cur.toFixed(1) + '%' : formatRupiahFull(cur)}</td>
         <td class="text-right tabular" style="font-weight:500;color:${positive ? '#16a34a' : '#dc2626'}">${isPct ? formatPt(changeAbs) : formatPct(changePct)}</td>

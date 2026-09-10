@@ -13,7 +13,7 @@ final class PnlEngine
     }
 
     /**
-     * @return array{period:string, revenue:float, promo:float, netRevenue:float, cogs:float, onlineCost:float, opex:float, grossProfit:float, operatingProfit:float, grossMarginPct:float, operatingMarginPct:float, promoRatioPct:float, onlineCostRatioPct:float, cogsRatioPct:float, opexRatioPct:float, unmappedAmount:float}
+     * @return array{period:string, revenue:float, promo:float, netRevenue:float, cogs:float, onlineCost:float, opex:float, contributionMarginBeforeOnlineCost:float, grossProfit:float, operatingProfit:float, contributionMarginBeforeOnlineCostPct:float, grossMarginPct:float, operatingMarginPct:float, promoRatioPct:float, onlineCostRatioPct:float, cogsRatioPct:float, opexRatioPct:float, unmappedAmount:float}
      */
     private static function toMonthlyPnl(string $period, array $agg): array
     {
@@ -23,8 +23,19 @@ final class PnlEngine
         $cogs = $agg['COGS'];
         $onlineCost = $agg['ONLINE_COST'];
         $opex = $agg['OPEX'];
-        $grossProfit = $netRevenue - $cogs;
-        $operatingProfit = $grossProfit - $onlineCost - $opex;
+
+        // Source accounting flow (verified against the pilot workbook's own
+        // subtotals with 0% variance): Net Revenue - COGS = contribution
+        // margin before online cost; that minus Online Commission = the
+        // source's own Gross Profit ("Laba Kotor Per Bulan"); that minus
+        // OPEX = Operating Profit ("Profit Ebitda Per Bulan"). Online cost
+        // is subtracted exactly once, here — never double-subtracted
+        // downstream. Promo/Discount stays a separate sales deduction from
+        // Net Revenue; HPP Promo stays inside COGS — the two are never
+        // combined into a single "promo cost" figure anywhere in this engine.
+        $contributionMarginBeforeOnlineCost = $netRevenue - $cogs;
+        $grossProfit = $contributionMarginBeforeOnlineCost - $onlineCost;
+        $operatingProfit = $grossProfit - $opex;
         $safeRevenue = $revenue !== 0.0 ? $revenue : 1.0;
         $safeNetRevenue = $netRevenue !== 0.0 ? $netRevenue : 1.0;
 
@@ -36,8 +47,10 @@ final class PnlEngine
             'cogs' => $cogs,
             'onlineCost' => $onlineCost,
             'opex' => $opex,
+            'contributionMarginBeforeOnlineCost' => $contributionMarginBeforeOnlineCost,
             'grossProfit' => $grossProfit,
             'operatingProfit' => $operatingProfit,
+            'contributionMarginBeforeOnlineCostPct' => ($contributionMarginBeforeOnlineCost / $safeRevenue) * 100,
             'grossMarginPct' => ($grossProfit / $safeRevenue) * 100,
             'operatingMarginPct' => ($operatingProfit / $safeRevenue) * 100,
             'promoRatioPct' => ($promo / $safeRevenue) * 100,
