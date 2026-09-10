@@ -19,8 +19,10 @@ export interface MoMComparison {
   cogs: Delta;
   onlineCost: Delta;
   opex: Delta;
-  grossProfit: Delta;
+  contributionMarginBeforeOnlineCost: Delta;
+  grossProfit: Delta; // source-reconciled Gross Profit — see MonthlyPnl.grossProfit
   operatingProfit: Delta;
+  contributionMarginBeforeOnlineCostPt: number;
   grossMarginPt: number;
   operatingMarginPt: number;
   promoRatioPt: number;
@@ -38,8 +40,10 @@ export function compareMonths(current: MonthlyPnl, previous: MonthlyPnl): MoMCom
     cogs: delta(current.cogs, previous.cogs),
     onlineCost: delta(current.onlineCost, previous.onlineCost),
     opex: delta(current.opex, previous.opex),
+    contributionMarginBeforeOnlineCost: delta(current.contributionMarginBeforeOnlineCost, previous.contributionMarginBeforeOnlineCost),
     grossProfit: delta(current.grossProfit, previous.grossProfit),
     operatingProfit: delta(current.operatingProfit, previous.operatingProfit),
+    contributionMarginBeforeOnlineCostPt: current.contributionMarginBeforeOnlineCostPct - previous.contributionMarginBeforeOnlineCostPct,
     grossMarginPt: current.grossMarginPct - previous.grossMarginPct,
     operatingMarginPt: current.operatingMarginPct - previous.operatingMarginPct,
     promoRatioPt: current.promoRatioPct - previous.promoRatioPct,

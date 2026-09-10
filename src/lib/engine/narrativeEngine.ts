@@ -33,7 +33,19 @@ export function generateNarrative(
 
   points.push({
     tone: cmp.grossProfit.abs >= 0 ? 'positive' : 'negative',
-    text: `Gross profit ${cmp.grossProfit.abs >= 0 ? 'ikut naik' : 'ikut turun'} ${fmtPct(cmp.grossProfit.pct)}, dengan gross margin ${cmp.grossMarginPt >= 0 ? 'membaik' : 'melemah'} ${Math.abs(cmp.grossMarginPt).toFixed(1)} pt.`,
+    text: `Gross Profit (setelah komisi online) ${cmp.grossProfit.abs >= 0 ? 'ikut naik' : 'ikut turun'} ${fmtPct(cmp.grossProfit.pct)}, dengan gross margin ${cmp.grossMarginPt >= 0 ? 'membaik' : 'melemah'} ${Math.abs(cmp.grossMarginPt).toFixed(1)} pt.`,
+  });
+
+  // Surfaces the online-commission effect explicitly: the pre-online-cost
+  // margin and the source-reconciled Gross Profit margin can move in
+  // different directions (or by very different magnitudes) whenever online
+  // commission grows faster or slower than the rest of the P&L — this point
+  // makes that visible instead of letting one "Gross Profit" number hide it.
+  const cmDeltaPt = cmp.contributionMarginBeforeOnlineCostPt;
+  const gpDeltaPt = cmp.grossMarginPt;
+  points.push({
+    tone: gpDeltaPt >= cmDeltaPt - 0.001 ? 'neutral' : 'info',
+    text: `Margin sebelum komisi online (Contribution Margin) ${cmDeltaPt >= 0 ? 'membaik' : 'melemah'} ${Math.abs(cmDeltaPt).toFixed(1)} pt, namun ${cmp.onlineCost.abs >= 0 ? 'kenaikan' : 'penurunan'} komisi online (${fmtPct(cmp.onlineCost.pct)}) ${cmDeltaPt > gpDeltaPt ? 'mengurangi' : 'tidak mengurangi'} manfaat tersebut, sehingga Gross Profit margin setelah komisi online ${gpDeltaPt >= 0 ? 'membaik' : 'menurun'} ${Math.abs(gpDeltaPt).toFixed(1)} pt.`,
   });
 
   const topDriver = drivers.find((d) => d.direction === 'reduces') ?? drivers[0];
@@ -55,5 +67,5 @@ export function generateNarrative(
     });
   }
 
-  return points.slice(0, 5);
+  return points.slice(0, 6);
 }

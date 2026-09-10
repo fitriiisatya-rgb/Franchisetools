@@ -8,9 +8,24 @@ export interface MonthlyPnl {
   cogs: number;
   onlineCost: number;
   opex: number;
-  grossProfit: number; // netRevenue - cogs
-  operatingProfit: number; // grossProfit - onlineCost - opex
-  grossMarginPct: number;
+  /**
+   * Net Revenue - COGS. An intermediate margin, NOT the source workbook's own
+   * "Laba Kotor" (Gross Profit) figure — the source nets online commission
+   * into its HPP/COGS subtotal, so this pre-commission margin runs higher
+   * than the source's reported Gross Profit. Kept as its own explicit field
+   * so it's never mistaken for — or silently displayed as — "Gross Profit".
+   */
+  contributionMarginBeforeOnlineCost: number;
+  /**
+   * contributionMarginBeforeOnlineCost - onlineCost. This is the figure that
+   * reconciles exactly to the source workbook's own "Laba Kotor Per Bulan"
+   * (GROSS_PROFIT_SOURCE) — always use this field, never
+   * contributionMarginBeforeOnlineCost, for anything labeled "Gross Profit".
+   */
+  grossProfit: number;
+  operatingProfit: number; // grossProfit - opex (reconciles exactly to source "Profit Ebitda Per Bulan")
+  contributionMarginBeforeOnlineCostPct: number; // contributionMarginBeforeOnlineCost / revenue
+  grossMarginPct: number; // grossProfit / revenue — matches the source's own Gross Profit margin
   operatingMarginPct: number;
   promoRatioPct: number;
   onlineCostRatioPct: number;
@@ -36,8 +51,15 @@ function toMonthlyPnl(period: string, agg: Record<string, number>): MonthlyPnl {
   const cogs = agg.COGS;
   const onlineCost = agg.ONLINE_COST;
   const opex = agg.OPEX;
-  const grossProfit = netRevenue - cogs;
-  const operatingProfit = grossProfit - onlineCost - opex;
+  // Source accounting flow (verified against the pilot workbook's own
+  // subtotals with 0% variance): Net Revenue - COGS = contribution margin
+  // before online cost; that minus Online Commission = the source's own
+  // Gross Profit ("Laba Kotor Per Bulan"); that minus OPEX = Operating
+  // Profit ("Profit Ebitda Per Bulan"). Online cost is subtracted exactly
+  // once, here — never double-subtracted downstream.
+  const contributionMarginBeforeOnlineCost = netRevenue - cogs;
+  const grossProfit = contributionMarginBeforeOnlineCost - onlineCost;
+  const operatingProfit = grossProfit - opex;
   const safeRevenue = revenue !== 0 ? revenue : 1;
   const safeNetRevenue = netRevenue !== 0 ? netRevenue : 1;
   return {
@@ -48,8 +70,10 @@ function toMonthlyPnl(period: string, agg: Record<string, number>): MonthlyPnl {
     cogs,
     onlineCost,
     opex,
+    contributionMarginBeforeOnlineCost,
     grossProfit,
     operatingProfit,
+    contributionMarginBeforeOnlineCostPct: (contributionMarginBeforeOnlineCost / safeRevenue) * 100,
     grossMarginPct: (grossProfit / safeRevenue) * 100,
     operatingMarginPct: (operatingProfit / safeRevenue) * 100,
     promoRatioPct: (promo / safeRevenue) * 100,
