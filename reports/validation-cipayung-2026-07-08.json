@@ -1,0 +1,1663 @@
+{
+  "generatedAt": "2026-09-10T02:26:21.196Z",
+  "outletId": 1,
+  "monthlyTable": [
+    {
+      "period": "2025-12",
+      "revenue": 438676000,
+      "promo": 82897520,
+      "netRevenue": 355778480,
+      "cogs": 244885885.68131867,
+      "grossProfit": 110892594.31868133,
+      "grossMarginPct": 25.278928940421025,
+      "onlineCost": 23651171,
+      "opex": 52437903.67,
+      "operatingProfit": 34803519.64868133,
+      "operatingMarginPct": 7.933764247116626
+    },
+    {
+      "period": "2026-01",
+      "revenue": 335694650,
+      "promo": 56898280,
+      "netRevenue": 278796370,
+      "cogs": 189084828.6631991,
+      "grossProfit": 89711541.3368009,
+      "grossMarginPct": 26.72414985964206,
+      "onlineCost": 19742239,
+      "opex": 47004491.96,
+      "operatingProfit": 22964810.376800902,
+      "operatingMarginPct": 6.840981939033256
+    },
+    {
+      "period": "2026-02",
+      "revenue": 249628400,
+      "promo": 38820277.5,
+      "netRevenue": 210808122.5,
+      "cogs": 138358536.76612276,
+      "grossProfit": 72449585.73387724,
+      "grossMarginPct": 29.022974042167178,
+      "onlineCost": 19586514,
+      "opex": 43044997.855,
+      "operatingProfit": 9818073.878877245,
+      "operatingMarginPct": 3.9330756752345666
+    },
+    {
+      "period": "2026-03",
+      "revenue": 343823400,
+      "promo": 66824840,
+      "netRevenue": 276998560,
+      "cogs": 191460823.9708665,
+      "grossProfit": 85537736.0291335,
+      "grossMarginPct": 24.878392811290183,
+      "onlineCost": 23246326,
+      "opex": 44846703.12,
+      "operatingProfit": 17444706.9091335,
+      "operatingMarginPct": 5.073740446151572
+    },
+    {
+      "period": "2026-04",
+      "revenue": 283429450,
+      "promo": 44935120,
+      "netRevenue": 238494330,
+      "cogs": 158107889.27413446,
+      "grossProfit": 80386440.72586554,
+      "grossMarginPct": 28.36206354910033,
+      "onlineCost": 20224479,
+      "opex": 42468904.75,
+      "operatingProfit": 17693056.975865543,
+      "operatingMarginPct": 6.24249067126424
+    },
+    {
+      "period": "2026-05",
+      "revenue": 389451025,
+      "promo": 62146863.99000001,
+      "netRevenue": 327304161.01,
+      "cogs": 215074845.85714287,
+      "grossProfit": 112229315.15285712,
+      "grossMarginPct": 28.817311535605057,
+      "onlineCost": 33194357,
+      "opex": 55733295.6605,
+      "operatingProfit": 23301662.492357127,
+      "operatingMarginPct": 5.9832073859241035
+    },
+    {
+      "period": "2026-06",
+      "revenue": 489727575,
+      "promo": 86601303,
+      "netRevenue": 403126272,
+      "cogs": 273093383.3428571,
+      "grossProfit": 130032888.65714288,
+      "grossMarginPct": 26.55208636294227,
+      "onlineCost": 33819558,
+      "opex": 60560753.37,
+      "operatingProfit": 35652577.28714288,
+      "operatingMarginPct": 7.280083684718567
+    },
+    {
+      "period": "2026-07",
+      "revenue": 410702875,
+      "promo": 74121186,
+      "netRevenue": 336581689,
+      "cogs": 226431608,
+      "grossProfit": 110150081,
+      "grossMarginPct": 26.81989528317765,
+      "onlineCost": 33550297,
+      "opex": 52657680.6,
+      "operatingProfit": 23942103.4,
+      "operatingMarginPct": 5.82954365732161
+    },
+    {
+      "period": "2026-08",
+      "revenue": 414723725,
+      "promo": 71685762,
+      "netRevenue": 343037963,
+      "cogs": 228473481.57142857,
+      "grossProfit": 114564481.42857143,
+      "grossMarginPct": 27.62428926113919,
+      "onlineCost": 37510966,
+      "opex": 54765013.82,
+      "operatingProfit": 22288501.608571433,
+      "operatingMarginPct": 5.3743010744252535
+    }
+  ],
+  "julyVsAugust": {
+    "july": {
+      "period": "2026-07",
+      "revenue": 410702875,
+      "promo": 74121186,
+      "netRevenue": 336581689,
+      "cogs": 226431608,
+      "onlineCost": 33550297,
+      "opex": 52657680.6,
+      "grossProfit": 110150081,
+      "operatingProfit": 23942103.4,
+      "grossMarginPct": 26.81989528317765,
+      "operatingMarginPct": 5.82954365732161,
+      "promoRatioPct": 18.047398864690198,
+      "onlineCostRatioPct": 8.168994921206723,
+      "cogsRatioPct": 67.27389379759158,
+      "opexRatioPct": 12.821356704649316,
+      "unmappedAmount": 0
+    },
+    "august": {
+      "period": "2026-08",
+      "revenue": 414723725,
+      "promo": 71685762,
+      "netRevenue": 343037963,
+      "cogs": 228473481.57142857,
+      "onlineCost": 37510966,
+      "opex": 54765013.82,
+      "grossProfit": 114564481.42857143,
+      "operatingProfit": 22288501.608571433,
+      "grossMarginPct": 27.62428926113919,
+      "operatingMarginPct": 5.3743010744252535,
+      "promoRatioPct": 17.285184733523504,
+      "onlineCostRatioPct": 9.044808323902858,
+      "cogsRatioPct": 66.60297291102692,
+      "opexRatioPct": 13.20517986281108,
+      "unmappedAmount": 0
+    },
+    "comparison": {
+      "current": {
+        "period": "2026-08",
+        "revenue": 414723725,
+        "promo": 71685762,
+        "netRevenue": 343037963,
+        "cogs": 228473481.57142857,
+        "onlineCost": 37510966,
+        "opex": 54765013.82,
+        "grossProfit": 114564481.42857143,
+        "operatingProfit": 22288501.608571433,
+        "grossMarginPct": 27.62428926113919,
+        "operatingMarginPct": 5.3743010744252535,
+        "promoRatioPct": 17.285184733523504,
+        "onlineCostRatioPct": 9.044808323902858,
+        "cogsRatioPct": 66.60297291102692,
+        "opexRatioPct": 13.20517986281108,
+        "unmappedAmount": 0
+      },
+      "previous": {
+        "period": "2026-07",
+        "revenue": 410702875,
+        "promo": 74121186,
+        "netRevenue": 336581689,
+        "cogs": 226431608,
+        "onlineCost": 33550297,
+        "opex": 52657680.6,
+        "grossProfit": 110150081,
+        "operatingProfit": 23942103.4,
+        "grossMarginPct": 26.81989528317765,
+        "operatingMarginPct": 5.82954365732161,
+        "promoRatioPct": 18.047398864690198,
+        "onlineCostRatioPct": 8.168994921206723,
+        "cogsRatioPct": 67.27389379759158,
+        "opexRatioPct": 12.821356704649316,
+        "unmappedAmount": 0
+      },
+      "revenue": {
+        "abs": 4020850,
+        "pct": 0.9790167648570759
+      },
+      "promo": {
+        "abs": -2435424,
+        "pct": -3.2857326378992373
+      },
+      "cogs": {
+        "abs": 2041873.5714285672,
+        "pct": 0.9017617237557078
+      },
+      "onlineCost": {
+        "abs": 3960669,
+        "pct": 11.805168222504856
+      },
+      "opex": {
+        "abs": 2107333.219999999,
+        "pct": 4.001948426114307
+      },
+      "grossProfit": {
+        "abs": 4414400.428571433,
+        "pct": 4.007623406624125
+      },
+      "operatingProfit": {
+        "abs": -1653601.791428566,
+        "pct": -6.906668824379758
+      },
+      "grossMarginPt": 0.8043939779615386,
+      "operatingMarginPt": -0.4552425828963562,
+      "promoRatioPt": -0.7622141311666937,
+      "onlineCostRatioPt": 0.8758134026961351,
+      "cogsRatioPt": -0.6709208865646588,
+      "opexRatioPt": 0.38382315816176416
+    }
+  },
+  "profitBridge": {
+    "previousProfit": 23942103.4,
+    "currentProfit": 22288501.608571433,
+    "steps": [
+      {
+        "key": "REVENUE",
+        "label": "Dampak Perubahan Omzet",
+        "value": 4020850,
+        "runningTotal": 27962953.4
+      },
+      {
+        "key": "COGS",
+        "label": "Dampak HPP",
+        "value": -2041873.5714285672,
+        "runningTotal": 25921079.82857143
+      },
+      {
+        "key": "PROMO",
+        "label": "Dampak Promo",
+        "value": 2435424,
+        "runningTotal": 28356503.82857143
+      },
+      {
+        "key": "ONLINE_COST",
+        "label": "Dampak Komisi Online",
+        "value": -3960669,
+        "runningTotal": 24395834.82857143
+      },
+      {
+        "key": "OPEX",
+        "label": "Dampak OPEX",
+        "value": -2107333.219999999,
+        "runningTotal": 22288501.608571433
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "name": "Revenue",
+      "key": "REVENUE",
+      "impact": 4020850,
+      "direction": "supports"
+    },
+    {
+      "name": "Komisi Online",
+      "key": "ONLINE_COST",
+      "impact": -3960669,
+      "direction": "reduces"
+    },
+    {
+      "name": "Promo",
+      "key": "PROMO",
+      "impact": 2435424,
+      "direction": "supports"
+    },
+    {
+      "name": "OPEX",
+      "key": "OPEX",
+      "impact": -2107333.219999999,
+      "direction": "reduces"
+    },
+    {
+      "name": "HPP (COGS)",
+      "key": "COGS",
+      "impact": -2041873.5714285672,
+      "direction": "reduces"
+    }
+  ],
+  "classification": {
+    "scenario": "SALES_GROWTH_NOT_CONVERTED",
+    "title": "Sales Growth Tidak Diikuti Profit Growth",
+    "description": "Omzet naik 1.0%, tetapi profit turun 6.9%. Kenaikan penjualan belum berhasil dikonversi menjadi pertumbuhan laba, terutama akibat dampak komisi online sebesar -Rp4jt.",
+    "severity": "negative"
+  },
+  "anomalies": [
+    {
+      "level": "high",
+      "message": "Omzet naik tetapi profit turun — pertumbuhan penjualan belum terkonversi menjadi laba."
+    }
+  ],
+  "opexSubcategoryMovement": [
+    {
+      "subcategory": "MANPOWER",
+      "label": "Gaji & Tunjangan Karyawan",
+      "current": 16225526.4,
+      "previous": 14562835,
+      "delta": 1662691.4000000004
+    },
+    {
+      "subcategory": "OTHER_OPEX",
+      "label": "Lain-lain",
+      "current": 4800984.27,
+      "previous": 3651059.23,
+      "delta": 1149925.0399999996
+    },
+    {
+      "subcategory": "MARKETING",
+      "label": "Marketing & Iklan",
+      "current": 716201,
+      "previous": 1581500,
+      "delta": -865299
+    },
+    {
+      "subcategory": "FRANCHISE_FEE",
+      "label": "Royalti & Management Fee",
+      "current": 17151898.15,
+      "previous": 16829084.45,
+      "delta": 322813.69999999925
+    },
+    {
+      "subcategory": "UTILITIES",
+      "label": "Listrik, Air & Internet",
+      "current": 5366626,
+      "previous": 5593245,
+      "delta": -226619
+    },
+    {
+      "subcategory": "ADMINISTRATION",
+      "label": "Administrasi",
+      "current": 700824,
+      "previous": 638708.92,
+      "delta": 62115.07999999996
+    },
+    {
+      "subcategory": "MAINTENANCE",
+      "label": "Pemeliharaan",
+      "current": 829000,
+      "previous": 821000,
+      "delta": 8000
+    },
+    {
+      "subcategory": "SUPPLIES",
+      "label": "Perlengkapan (ATK/POS)",
+      "current": 640621,
+      "previous": 646915,
+      "delta": -6294
+    },
+    {
+      "subcategory": "RENT",
+      "label": "Sewa",
+      "current": 8333333,
+      "previous": 8333333,
+      "delta": 0
+    }
+  ],
+  "cogsSubcategoryMovement": [
+    {
+      "subcategory": "HPP_ONLINE",
+      "label": "HPP Online",
+      "current": 86122694.37142856,
+      "previous": 83164675.60000001,
+      "delta": 2958018.7714285553
+    },
+    {
+      "subcategory": "HPP_KONSINYASI",
+      "label": "HPP Konsinyasi",
+      "current": 7765799.999999999,
+      "previous": 5557440,
+      "delta": 2208359.999999999
+    },
+    {
+      "subcategory": "HPP_OFFLINE",
+      "label": "HPP Offline",
+      "current": 91573530,
+      "previous": 93208780.8,
+      "delta": -1635250.799999997
+    },
+    {
+      "subcategory": "HPP_PROMO",
+      "label": "HPP Promo",
+      "current": 43011457.2,
+      "previous": 44472711.6,
+      "delta": -1461254.3999999985
+    },
+    {
+      "subcategory": "HPP_BAHAN_BAKU",
+      "label": "Bahan Baku Langsung",
+      "current": 0,
+      "previous": 28000,
+      "delta": -28000
+    },
+    {
+      "subcategory": "HPP_RETURN_EXPIRED",
+      "label": "Return/Expired",
+      "current": 0,
+      "previous": 0,
+      "delta": 0
+    }
+  ],
+  "opexAccountMovementFull": [
+    {
+      "account": "Biaya Tunjangan Karyawan",
+      "jul": 525000,
+      "aug": 2475272.4,
+      "changeRp": 1950272.4,
+      "changePct": 371.4804571428571
+    },
+    {
+      "account": "Biaya Operasional Lainnya",
+      "jul": 766592.23,
+      "aug": 1772117.27,
+      "changeRp": 1005525.04,
+      "changePct": 131.16817528922778
+    },
+    {
+      "account": "Management Fee",
+      "jul": 13463267.56,
+      "aug": 13721518.52,
+      "changeRp": 258250.95999999903,
+      "changePct": 1.918189316591128
+    },
+    {
+      "account": "Biaya Kebersihan",
+      "jul": 717800,
+      "aug": 862200,
+      "changeRp": 144400,
+      "changePct": 20.11702424073558
+    },
+    {
+      "account": "Royalti Fee",
+      "jul": 3365816.89,
+      "aug": 3430379.63,
+      "changeRp": 64562.73999999976,
+      "changePct": 1.918189316591128
+    },
+    {
+      "account": "Biaya Adm & Umum",
+      "jul": 78000,
+      "aug": 130000,
+      "changeRp": 52000,
+      "changePct": 66.66666666666666
+    },
+    {
+      "account": "Biaya Adm Penjualan Non Tunai",
+      "jul": 560708.92,
+      "aug": 570824,
+      "changeRp": 10115.079999999958,
+      "changePct": 1.8039805751618783
+    },
+    {
+      "account": "Biaya Pemeliharaan Peralatan",
+      "jul": 821000,
+      "aug": 829000,
+      "changeRp": 8000,
+      "changePct": 0.9744214372716199
+    },
+    {
+      "account": "Angsuran Pajak Reklame",
+      "jul": 2166667,
+      "aug": 2166667,
+      "changeRp": 0,
+      "changePct": 0
+    },
+    {
+      "account": "Angsuran Sewa",
+      "jul": 8333333,
+      "aug": 8333333,
+      "changeRp": 0,
+      "changePct": 0
+    },
+    {
+      "account": "Angsuran THR",
+      "jul": 1208333,
+      "aug": 1208333,
+      "changeRp": 0,
+      "changePct": 0
+    },
+    {
+      "account": "Biaya POS Sistem",
+      "jul": 250000,
+      "aug": 250000,
+      "changeRp": 0,
+      "changePct": 0
+    },
+    {
+      "account": "Biaya Pajak Daerah",
+      "jul": 0,
+      "aug": 0,
+      "changeRp": 0,
+      "changePct": null
+    },
+    {
+      "account": "Biaya Pajak PPh Final",
+      "jul": 0,
+      "aug": 0,
+      "changeRp": 0,
+      "changePct": null
+    },
+    {
+      "account": "Biaya Pemeliharaan Bangunan",
+      "jul": 0,
+      "aug": 0,
+      "changeRp": 0,
+      "changePct": null
+    },
+    {
+      "account": "Biaya Internet dan Telepon",
+      "jul": 365745,
+      "aug": 363126,
+      "changeRp": -2619,
+      "changePct": -0.7160726735840545
+    },
+    {
+      "account": "Biaya ATK",
+      "jul": 396915,
+      "aug": 390621,
+      "changeRp": -6294,
+      "changePct": -1.5857299421790558
+    },
+    {
+      "account": "Biaya Listrik dan Air",
+      "jul": 5227500,
+      "aug": 5003500,
+      "changeRp": -224000,
+      "changePct": -4.285031085604974
+    },
+    {
+      "account": "Biaya Gaji Karyawan 10",
+      "jul": 12829502,
+      "aug": 12541921,
+      "changeRp": -287581,
+      "changePct": -2.2415601166748327
+    },
+    {
+      "account": "Biaya Marketing Tools",
+      "jul": 432000,
+      "aug": 0,
+      "changeRp": -432000,
+      "changePct": -100
+    },
+    {
+      "account": "Biaya Iklan & Promosi",
+      "jul": 1149500,
+      "aug": 716201,
+      "changeRp": -433299,
+      "changePct": -37.694562853414524
+    }
+  ],
+  "accountReferenceTable": [
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_BAHAN_BAKU",
+      "account_name": "HPP Bahan Baku Langsung",
+      "source_sheet": "PNL",
+      "min_row": 16,
+      "max_row": 16,
+      "periods_present": 8,
+      "total_amount_all_periods": 203366
+    },
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_KONSINYASI",
+      "account_name": "HPP 70% Mitra (konsinyasi)",
+      "source_sheet": "PNL",
+      "min_row": 14,
+      "max_row": 14,
+      "periods_present": 9,
+      "total_amount_all_periods": 56877730
+    },
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_OFFLINE",
+      "account_name": "HPP 60% Amorcakes Offline",
+      "source_sheet": "PNL",
+      "min_row": 11,
+      "max_row": 11,
+      "periods_present": 9,
+      "total_amount_all_periods": 844257423.306
+    },
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_ONLINE",
+      "account_name": "HPP 60% Amorcakes Online",
+      "source_sheet": "PNL",
+      "min_row": 12,
+      "max_row": 12,
+      "periods_present": 9,
+      "total_amount_all_periods": 612674072.32707
+    },
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_PROMO",
+      "account_name": "HPP Promo",
+      "source_sheet": "PNL",
+      "min_row": 17,
+      "max_row": 17,
+      "periods_present": 9,
+      "total_amount_all_periods": 350958691.494
+    },
+    {
+      "category": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_RETURN_EXPIRED",
+      "account_name": "Over Budget Return Expired\n(hitungan Terlampir)",
+      "source_sheet": "PNL",
+      "min_row": 15,
+      "max_row": 15,
+      "periods_present": 9,
+      "total_amount_all_periods": 0
+    },
+    {
+      "category": "ONLINE_COST",
+      "analysis_group": "ONLINE_COST",
+      "subcategory": "COMMISSION",
+      "account_name": "Komisi Penjualan Online",
+      "source_sheet": "PNL",
+      "min_row": 13,
+      "max_row": 13,
+      "periods_present": 9,
+      "total_amount_all_periods": 244525907
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "ADMINISTRATION",
+      "account_name": "Biaya Adm & Umum",
+      "source_sheet": "PNL",
+      "min_row": 30,
+      "max_row": 30,
+      "periods_present": 9,
+      "total_amount_all_periods": 979338.58
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "ADMINISTRATION",
+      "account_name": "Biaya Adm Penjualan Non Tunai",
+      "source_sheet": "PNL",
+      "min_row": 41,
+      "max_row": 41,
+      "periods_present": 9,
+      "total_amount_all_periods": 6977064.580000001
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "FRANCHISE_FEE",
+      "account_name": "Management Fee",
+      "source_sheet": "PNL",
+      "min_row": 44,
+      "max_row": 44,
+      "periods_present": 9,
+      "total_amount_all_periods": 100527180.1004
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "FRANCHISE_FEE",
+      "account_name": "Royalti Fee",
+      "source_sheet": "PNL",
+      "min_row": 43,
+      "max_row": 43,
+      "periods_present": 9,
+      "total_amount_all_periods": 27709259.475100003
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MAINTENANCE",
+      "account_name": "Biaya Pemeliharaan Bangunan",
+      "source_sheet": "PNL",
+      "min_row": 33,
+      "max_row": 33,
+      "periods_present": 9,
+      "total_amount_all_periods": 0
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MAINTENANCE",
+      "account_name": "Biaya Pemeliharaan Peralatan",
+      "source_sheet": "PNL",
+      "min_row": 34,
+      "max_row": 34,
+      "periods_present": 9,
+      "total_amount_all_periods": 6580000
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "account_name": "Angsuran THR",
+      "source_sheet": "PNL",
+      "min_row": 22,
+      "max_row": 22,
+      "periods_present": 9,
+      "total_amount_all_periods": 10874997
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "account_name": "Biaya Gaji Karyawan 10",
+      "source_sheet": "PNL",
+      "min_row": 21,
+      "max_row": 21,
+      "periods_present": 9,
+      "total_amount_all_periods": 109714969.24
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "account_name": "Biaya Tunjangan Karyawan",
+      "source_sheet": "PNL",
+      "min_row": 23,
+      "max_row": 23,
+      "periods_present": 9,
+      "total_amount_all_periods": 20651620.86
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MARKETING",
+      "account_name": "Biaya Iklan & Promosi",
+      "source_sheet": "PNL",
+      "min_row": 27,
+      "max_row": 27,
+      "periods_present": 9,
+      "total_amount_all_periods": 5495058.4399999995
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MARKETING",
+      "account_name": "Biaya Marketing Tools",
+      "source_sheet": "PNL",
+      "min_row": 26,
+      "max_row": 26,
+      "periods_present": 9,
+      "total_amount_all_periods": 1118000
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "account_name": "Angsuran Pajak Reklame",
+      "source_sheet": "PNL",
+      "min_row": 32,
+      "max_row": 32,
+      "periods_present": 9,
+      "total_amount_all_periods": 19500003
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "account_name": "Biaya Kebersihan",
+      "source_sheet": "PNL",
+      "min_row": 39,
+      "max_row": 39,
+      "periods_present": 9,
+      "total_amount_all_periods": 7564416
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "account_name": "Biaya Operasional Lainnya",
+      "source_sheet": "PNL",
+      "min_row": 40,
+      "max_row": 40,
+      "periods_present": 9,
+      "total_amount_all_periods": 11040827.53
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "account_name": "Biaya Pajak Daerah",
+      "source_sheet": "PNL",
+      "min_row": 37,
+      "max_row": 37,
+      "periods_present": 9,
+      "total_amount_all_periods": 0
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "account_name": "Biaya Pajak PPh Final",
+      "source_sheet": "PNL",
+      "min_row": 35,
+      "max_row": 35,
+      "periods_present": 9,
+      "total_amount_all_periods": 0
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "RENT",
+      "account_name": "Angsuran Sewa",
+      "source_sheet": "PNL",
+      "min_row": 24,
+      "max_row": 24,
+      "periods_present": 9,
+      "total_amount_all_periods": 74999997
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "SUPPLIES",
+      "account_name": "Biaya ATK",
+      "source_sheet": "PNL",
+      "min_row": 38,
+      "max_row": 38,
+      "periods_present": 9,
+      "total_amount_all_periods": 3476661
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "SUPPLIES",
+      "account_name": "Biaya POS Sistem",
+      "source_sheet": "PNL",
+      "min_row": 36,
+      "max_row": 36,
+      "periods_present": 9,
+      "total_amount_all_periods": 2250000
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "UTILITIES",
+      "account_name": "Biaya Internet dan Telepon",
+      "source_sheet": "PNL",
+      "min_row": 31,
+      "max_row": 31,
+      "periods_present": 9,
+      "total_amount_all_periods": 3312852
+    },
+    {
+      "category": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "UTILITIES",
+      "account_name": "Biaya Listrik dan Air",
+      "source_sheet": "PNL",
+      "min_row": 29,
+      "max_row": 29,
+      "periods_present": 9,
+      "total_amount_all_periods": 40747500
+    },
+    {
+      "category": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "CONSIGNMENT",
+      "account_name": "Pendapatan Konsinyasi",
+      "source_sheet": "PNL",
+      "min_row": 6,
+      "max_row": 6,
+      "periods_present": 9,
+      "total_amount_all_periods": 81253900
+    },
+    {
+      "category": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "OFFLINE",
+      "account_name": "Pendapatan Produk amorcakes offline",
+      "source_sheet": "PNL",
+      "min_row": 3,
+      "max_row": 3,
+      "periods_present": 9,
+      "total_amount_all_periods": 1407095705.51
+    },
+    {
+      "category": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "ONLINE",
+      "account_name": "Pendapatan Adjustment Harga Online",
+      "source_sheet": "PNL",
+      "min_row": 5,
+      "max_row": 5,
+      "periods_present": 9,
+      "total_amount_all_periods": 261452888.12154987
+    },
+    {
+      "category": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "ONLINE",
+      "account_name": "Pendapatan Produk amorcakes Online (pengakuan harga normal)",
+      "source_sheet": "PNL",
+      "min_row": 4,
+      "max_row": 4,
+      "periods_present": 9,
+      "total_amount_all_periods": 1021123453.8784502
+    },
+    {
+      "category": "SALES_DEDUCTION",
+      "analysis_group": "PROMO",
+      "subcategory": null,
+      "account_name": "Promo/Discount",
+      "source_sheet": "PNL",
+      "min_row": 7,
+      "max_row": 7,
+      "periods_present": 9,
+      "total_amount_all_periods": 584931152.49
+    }
+  ],
+  "reconciliationChecks": [
+    {
+      "period": "2025-12",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 87241423.31868136,
+      "computed_value": 87241423.31868133,
+      "variance": 3.4160747560056856e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2025-12",
+      "check_name": "NET_SALES",
+      "source_value": 355778480,
+      "computed_value": 355778480,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2025-12",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 34803519.64868136,
+      "computed_value": 34803519.64868133,
+      "variance": 8.563019685517486e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2025-12",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 438676000,
+      "computed_value": 438676000,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2025-12",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 52437903.67,
+      "computed_value": 52437903.67,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-01",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 69969302.3368009,
+      "computed_value": 69969302.3368009,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-01",
+      "check_name": "NET_SALES",
+      "source_value": 278796370,
+      "computed_value": 278796370,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-01",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 22964810.376800895,
+      "computed_value": 22964810.376800895,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-01",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 335694650,
+      "computed_value": 335694650,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-01",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 47004491.96000001,
+      "computed_value": 47004491.96000001,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-02",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 52863071.73387724,
+      "computed_value": 52863071.73387724,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-02",
+      "check_name": "NET_SALES",
+      "source_value": 210808122.5,
+      "computed_value": 210808122.5,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-02",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 9818073.878877245,
+      "computed_value": 9818073.878877245,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-02",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 249628400,
+      "computed_value": 249628400,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-02",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 43044997.855,
+      "computed_value": 43044997.855,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-03",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 62291410.0291335,
+      "computed_value": 62291410.0291335,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-03",
+      "check_name": "NET_SALES",
+      "source_value": 276998560,
+      "computed_value": 276998560,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-03",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 17444706.909133494,
+      "computed_value": 17444706.909133494,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-03",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 343823400,
+      "computed_value": 343823400,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-03",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 44846703.120000005,
+      "computed_value": 44846703.120000005,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-04",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 60161961.72586554,
+      "computed_value": 60161961.72586554,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-04",
+      "check_name": "NET_SALES",
+      "source_value": 238494330,
+      "computed_value": 238494330,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-04",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 17693056.97586555,
+      "computed_value": 17693056.975865543,
+      "variance": 4.211019388614919e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2026-04",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 283429450,
+      "computed_value": 283429450,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-04",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 42468904.74999999,
+      "computed_value": 42468904.75,
+      "variance": 1.754361371168591e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2026-05",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 79034958.15285712,
+      "computed_value": 79034958.15285712,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-05",
+      "check_name": "NET_SALES",
+      "source_value": 327304161.01,
+      "computed_value": 327304161.01,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-05",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 23301662.49235712,
+      "computed_value": 23301662.49235712,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-05",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 389451025,
+      "computed_value": 389451025,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-05",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 55733295.660500005,
+      "computed_value": 55733295.660500005,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-06",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 96213330.65714288,
+      "computed_value": 96213330.65714288,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-06",
+      "check_name": "NET_SALES",
+      "source_value": 403126272,
+      "computed_value": 403126272,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-06",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 35652577.28714288,
+      "computed_value": 35652577.28714287,
+      "variance": 2.0897733526856907e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2026-06",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 489727575,
+      "computed_value": 489727575,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-06",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 60560753.37,
+      "computed_value": 60560753.370000005,
+      "variance": 1.2302655073334384e-14,
+      "status": "OK"
+    },
+    {
+      "period": "2026-07",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 76599784,
+      "computed_value": 76599784,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-07",
+      "check_name": "NET_SALES",
+      "source_value": 336581689,
+      "computed_value": 336581689,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-07",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 23942103.4,
+      "computed_value": 23942103.4,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-07",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 410702875,
+      "computed_value": 410702875,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-07",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 52657680.6,
+      "computed_value": 52657680.6,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-08",
+      "check_name": "GROSS_PROFIT_SOURCE",
+      "source_value": 77053515.42857146,
+      "computed_value": 77053515.42857146,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-08",
+      "check_name": "NET_SALES",
+      "source_value": 343037963,
+      "computed_value": 343037963,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-08",
+      "check_name": "OPERATING_PROFIT_SOURCE",
+      "source_value": 22288501.608571455,
+      "computed_value": 22288501.608571455,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-08",
+      "check_name": "REVENUE_GROSS",
+      "source_value": 414723725,
+      "computed_value": 414723725,
+      "variance": 0,
+      "status": "OK"
+    },
+    {
+      "period": "2026-08",
+      "check_name": "TOTAL_OPEX_SOURCE",
+      "source_value": 54765013.82000001,
+      "computed_value": 54765013.82000001,
+      "variance": 0,
+      "status": "OK"
+    }
+  ],
+  "mappingRulesUsed": [
+    {
+      "id": 23,
+      "account_pattern": "%biaya adm penjualan non tunai%",
+      "normalized_account": "OPEX_ADM_NON_TUNAI",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "ADMINISTRATION",
+      "mapping_priority": 9,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 1,
+      "account_pattern": "%pendapatan produk%offline%",
+      "normalized_account": "REVENUE_OFFLINE",
+      "pnl_group": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "OFFLINE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 2,
+      "account_pattern": "%pendapatan produk%online%harga normal%",
+      "normalized_account": "REVENUE_ONLINE",
+      "pnl_group": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "ONLINE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 3,
+      "account_pattern": "%pendapatan adjustment harga online%",
+      "normalized_account": "REVENUE_ONLINE_ADJUSTMENT",
+      "pnl_group": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "ONLINE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 4,
+      "account_pattern": "%pendapatan konsinyasi%",
+      "normalized_account": "REVENUE_CONSIGNMENT",
+      "pnl_group": "REVENUE",
+      "analysis_group": "REVENUE",
+      "subcategory": "CONSIGNMENT",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 5,
+      "account_pattern": "%promo%discount%",
+      "normalized_account": "PROMO_DISCOUNT",
+      "pnl_group": "SALES_DEDUCTION",
+      "analysis_group": "PROMO",
+      "subcategory": null,
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 6,
+      "account_pattern": "%hpp%offline%",
+      "normalized_account": "COGS_OFFLINE",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_OFFLINE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 7,
+      "account_pattern": "%hpp%online%",
+      "normalized_account": "COGS_ONLINE",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_ONLINE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 8,
+      "account_pattern": "%hpp%mitra%",
+      "normalized_account": "COGS_KONSINYASI",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_KONSINYASI",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 9,
+      "account_pattern": "%over budget return%",
+      "normalized_account": "COGS_RETURN_EXPIRED",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_RETURN_EXPIRED",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 10,
+      "account_pattern": "%hpp bahan baku%",
+      "normalized_account": "COGS_BAHAN_BAKU",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_BAHAN_BAKU",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 8
+    },
+    {
+      "id": 11,
+      "account_pattern": "%hpp promo%",
+      "normalized_account": "COGS_PROMO",
+      "pnl_group": "COGS",
+      "analysis_group": "COGS",
+      "subcategory": "HPP_PROMO",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 12,
+      "account_pattern": "%komisi%online%",
+      "normalized_account": "ONLINE_COMMISSION",
+      "pnl_group": "ONLINE_COST",
+      "analysis_group": "ONLINE_COST",
+      "subcategory": "COMMISSION",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 14,
+      "account_pattern": "%biaya gaji karyawan%",
+      "normalized_account": "OPEX_GAJI_KARYAWAN",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 15,
+      "account_pattern": "%angsuran thr%",
+      "normalized_account": "OPEX_THR",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 16,
+      "account_pattern": "%tunjangan karyawan%",
+      "normalized_account": "OPEX_TUNJANGAN",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MANPOWER",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 17,
+      "account_pattern": "%angsuran sewa%",
+      "normalized_account": "OPEX_SEWA",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "RENT",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 18,
+      "account_pattern": "%biaya marketing tools%",
+      "normalized_account": "OPEX_MARKETING_TOOLS",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MARKETING",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 19,
+      "account_pattern": "%biaya iklan%promosi%",
+      "normalized_account": "OPEX_IKLAN_PROMOSI",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MARKETING",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 20,
+      "account_pattern": "%biaya listrik%air%",
+      "normalized_account": "OPEX_LISTRIK_AIR",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "UTILITIES",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 21,
+      "account_pattern": "%biaya internet%telepon%",
+      "normalized_account": "OPEX_INTERNET_TELEPON",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "UTILITIES",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 22,
+      "account_pattern": "%biaya adm%umum%",
+      "normalized_account": "OPEX_ADM_UMUM",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "ADMINISTRATION",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 24,
+      "account_pattern": "%pemeliharaan bangunan%",
+      "normalized_account": "OPEX_MAINTENANCE_BUILDING",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MAINTENANCE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 25,
+      "account_pattern": "%pemeliharaan peralatan%",
+      "normalized_account": "OPEX_MAINTENANCE_EQUIPMENT",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "MAINTENANCE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 26,
+      "account_pattern": "%biaya pos sistem%",
+      "normalized_account": "OPEX_POS_SYSTEM",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "SUPPLIES",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 27,
+      "account_pattern": "%biaya atk%",
+      "normalized_account": "OPEX_ATK",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "SUPPLIES",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 28,
+      "account_pattern": "%royalti fee%",
+      "normalized_account": "OPEX_ROYALTI_FEE",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "FRANCHISE_FEE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 29,
+      "account_pattern": "%management fee%",
+      "normalized_account": "OPEX_MANAGEMENT_FEE",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "FRANCHISE_FEE",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 30,
+      "account_pattern": "%pajak reklame%",
+      "normalized_account": "OPEX_PAJAK_REKLAME",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 31,
+      "account_pattern": "%pajak pph final%",
+      "normalized_account": "OPEX_PPH_FINAL",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 32,
+      "account_pattern": "%pajak daerah%",
+      "normalized_account": "OPEX_PAJAK_DAERAH",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 33,
+      "account_pattern": "%biaya kebersihan%",
+      "normalized_account": "OPEX_KEBERSIHAN",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    },
+    {
+      "id": 34,
+      "account_pattern": "%biaya operasional lainnya%",
+      "normalized_account": "OPEX_LAINNYA",
+      "pnl_group": "OPEX",
+      "analysis_group": "OPEX",
+      "subcategory": "OTHER_OPEX",
+      "mapping_priority": 10,
+      "distinct_accounts_matched": 1,
+      "tx_rows_matched": 9
+    }
+  ]
+}
